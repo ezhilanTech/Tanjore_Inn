@@ -279,7 +279,7 @@
             }
 
             h1 {
-                font-size: 4rem;
+                font-size: 4vw;
                 line-height: 4.5rem;
             }
 
@@ -6413,13 +6413,14 @@
 
         .mad-entities .mad-entity .mad-entity-pre-title,
         .mad-pre-title {
-            font-size: 0.875rem;
+            font-size:  1.3vmax;
             line-height: 1rem;
+            max-width: 50vmin;
             text-transform: uppercase;
             letter-spacing: 4px;
             position: relative;
             display: inline-flex;
-            align-items: center;
+            line-height: 1.6;
             color: var(--color-neutral-60);
             column-gap: 1.75rem;
         }
@@ -6427,16 +6428,6 @@
         .mad-entities .mad-entity .mad-entity-pre-title:not(:last-child),
         .mad-pre-title:not(:last-child) {
             margin-bottom: 1rem;
-        }
-
-        .mad-entities .mad-entity .mad-entity-pre-title:before,
-        .mad-pre-title:before {
-            content: '';
-            width: 3.5rem;
-            height: 0.5rem;
-            -webkit-mask: url(../royal_beach_resort_svg/title_line.svg) no-repeat;
-            mask: url(../royal_beach_resort_svg/title_line.svg) no-repeat;
-            background-color: var(--color-neutral-60);
         }
 
         .mad-entities.type-4 .mad-entity .mad-entity-content p + a,
