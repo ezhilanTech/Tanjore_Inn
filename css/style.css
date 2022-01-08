@@ -279,7 +279,7 @@
             }
 
             h1 {
-                font-size: 4rem;
+                font-size: 3.5rem;
                 line-height: 4.5rem;
             }
 
@@ -3737,20 +3737,10 @@
             background-color: var(--color-primary);
         }
 
-        .mad-panels-title > button::before {
-           -webkit-mask: url(../royal_beach_resort_svg/plus.svg) no-repeat;
-            mask: url(../royal_beach_resort_svg/plus.svg) no-repeat;
-            top: 0.25rem;
-        }
-
-        .mad-panels-title > button::after {
-            -webkit-mask: url(../royal_beach_resort_svg/minus.svg) no-repeat;
-            mask: url(../royal_beach_resort_svg/minus.svg) no-repeat;
-            opacity: 0;
-        }
+        
         
         .mad-panels:not(.mad-panels--style-2) {
-            margin-bottom: -2rem;
+            margin-bottom: -1rem;
         }
 
         .mad-panels:not(.mad-panels--style-2) .mad-panels-title.mad-panels-active > button::after,
@@ -3878,7 +3868,7 @@
         .mad-panels.type-big .mad-panels-title > button {
             padding-left: 0;
             color: var(--color-secondary-40);
-            font-size: 3.5rem;
+            font-size: 3rem;
             line-height: 4rem;
             letter-spacing: -0.5px;
         }
@@ -6395,7 +6385,7 @@
         }
 
         .mad-entities.type-4 .mad-entity .mad-entity-content {
-            font-size: 1.125rem;
+            font-size: 1rem;
             line-height: 2rem;
             position: absolute;
             right: 0;
@@ -6413,13 +6403,14 @@
 
         .mad-entities .mad-entity .mad-entity-pre-title,
         .mad-pre-title {
-            font-size: 0.875rem;
+            font-size:  1rem;
             line-height: 1rem;
+            
             text-transform: uppercase;
             letter-spacing: 4px;
             position: relative;
             display: inline-flex;
-            align-items: center;
+            line-height: 1.6;
             color: var(--color-neutral-60);
             column-gap: 1.75rem;
         }
@@ -6427,16 +6418,6 @@
         .mad-entities .mad-entity .mad-entity-pre-title:not(:last-child),
         .mad-pre-title:not(:last-child) {
             margin-bottom: 1rem;
-        }
-
-        .mad-entities .mad-entity .mad-entity-pre-title:before,
-        .mad-pre-title:before {
-            content: '';
-            width: 3.5rem;
-            height: 0.5rem;
-            -webkit-mask: url(../royal_beach_resort_svg/title_line.svg) no-repeat;
-            mask: url(../royal_beach_resort_svg/title_line.svg) no-repeat;
-            background-color: var(--color-neutral-60);
         }
 
         .mad-entities.type-4 .mad-entity .mad-entity-content p + a,
