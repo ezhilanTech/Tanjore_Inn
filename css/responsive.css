@@ -1585,13 +1585,13 @@
 	}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 3vmax;
 		line-height: 3.5rem;
 	}
 
 	h2,
 	.mad-entities.mad-single-room .mad-single-room-content .mad-title {
-		font-size: 2.5rem;
+		font-size: 4vmin;
 		line-height: 3rem;
 	}
 
@@ -2123,6 +2123,7 @@
 	.mad-section-pb-mobile,
 	.mad-section-pb-mobile .mad-entities.type-5 .mad-entity .mad-entity-content {
 		padding-bottom: 1rem;
+		font-size: 10px ;
 	}
 
 	.mad-section-pb-mobile .mad-entities.type-5 .mad-entity .mad-entity-content,
@@ -2150,7 +2151,7 @@
 	}
 
 	.mad-title-wrap.align-center {
-		text-align: left;
+		text-align: center;
 	}
 
 	.hidden-section .btn,
