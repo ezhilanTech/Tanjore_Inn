@@ -1585,13 +1585,13 @@
 	}
 
 	h1 {
-		font-size: 3vmax;
+		font-size: 2rem;
 		line-height: 3.5rem;
 	}
 
 	h2,
 	.mad-entities.mad-single-room .mad-single-room-content .mad-title {
-		font-size: 4vmin;
+		font-size: 2rem;
 		line-height: 3rem;
 	}
 
@@ -2121,9 +2121,9 @@
 	}
 
 	.mad-section-pb-mobile,
-	.mad-section-pb-mobile .mad-entities.type-5 .mad-entity .mad-entity-content {
+	.mad-section-pb-mobile .mad-entities.type-5 .mad-entity .mad-entity-content, .mad-panels.type-big .mad-panels-title > button{
 		padding-bottom: 1rem;
-		font-size: 10px ;
+		font-size: 2.5rem;
 	}
 
 	.mad-section-pb-mobile .mad-entities.type-5 .mad-entity .mad-entity-content,
