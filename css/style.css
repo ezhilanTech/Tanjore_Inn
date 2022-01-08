@@ -3740,7 +3740,7 @@
         
         
         .mad-panels:not(.mad-panels--style-2) {
-            margin-bottom: -2rem;
+            margin-bottom: -1rem;
         }
 
         .mad-panels:not(.mad-panels--style-2) .mad-panels-title.mad-panels-active > button::after,
@@ -6385,7 +6385,7 @@
         }
 
         .mad-entities.type-4 .mad-entity .mad-entity-content {
-            font-size: 1.125rem;
+            font-size: 1rem;
             line-height: 2rem;
             position: absolute;
             right: 0;
