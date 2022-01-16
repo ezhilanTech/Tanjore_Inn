@@ -690,6 +690,7 @@
             align-items: center;
             column-gap: 2rem;
             font-size: 0.875rem;
+            justify-content: center;
         }
 
         .mad-actions .mad-col > a:not(.btn),
