@@ -136,6 +136,7 @@
 
         html {
             overflow-y: initial !important;
+            scroll-behavior: smooth;
         }
 
         ::-webkit-selection {
@@ -3385,7 +3386,7 @@
             border-radius: 50%;
             z-index: 103;
             right: 3.3%;
-            top: 60%;
+            top: 85%;
             color: var(--color-neutral-0);
             background: var(--color-secondary-80);
         }
